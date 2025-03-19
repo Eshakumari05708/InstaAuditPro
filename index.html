@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>InstaAudit Pro 🚀</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <h1>InstaAudit Pro</h1>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Enter Instagram Username">
+                <button id="auditBtn">Audit</button>
+            </div>
+            <div id="spinner" class="hidden"><img src="spinner.svg" width="40"></div>
+            <div id="results"></div>
+            <div id="actions" class="hidden">
+                <button id="csvExport">Download CSV</button>
+                <button id="pdfExport">Download PDF</button>
+            </div>
+            <canvas id="chart" class="hidden"></canvas>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
