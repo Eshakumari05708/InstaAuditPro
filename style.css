@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #e0e5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card {
+    background: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #babecc, -10px -10px 30px #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: inset 3px 3px 8px #babecc, inset -3px -3px 8px #ffffff;
+    background: #e0e5ec;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.result-card {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background: #e0e5ec;
+    box-shadow: inset 3px 3px 8px #babecc, inset -3px -3px 8px #ffffff;
+}
+
+.result-card img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+#chart {
+    margin-top: 20px;
+}
